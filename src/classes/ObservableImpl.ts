@@ -23,9 +23,9 @@ export class ObservableImpl implements Observable {
     };
 
     notifyObservers() {
-        console.log(this.observers)
+        // console.log(this.observers)
         for (const obs of this.observers) {
-            obs.update(this);
+            return obs.update(this);
         }
     };
 

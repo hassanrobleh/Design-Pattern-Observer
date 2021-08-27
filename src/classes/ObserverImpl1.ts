@@ -8,11 +8,13 @@ export class ObserverImpl1 implements Observer {
         
         const state = <ObservableImpl> obs;
         let state1 = state.getState();
-        const res = state1 * state1 + 9;
+        // const res = state1 * state1 + 9;
 
-        console.log("****** ObserverImpl1 ********");
-        console.log("La nouvelle mise à jour: state = " + state1);
-        console.log("Le result de calcul : " + res);
-        console.log("*************************")
+        // console.log("****** ObserverImpl1 ********");
+        // console.log("La nouvelle mise à jour: state = " + state1);
+        // console.log("Le result de calcul : " + res);
+        // console.log("*************************");
+        return state1;
+        
     }
 }
